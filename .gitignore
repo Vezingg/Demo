@@ -1,0 +1,26 @@
+# Ignore mypy cache
+.mypy_cache/
+
+# Ignore app environment files
+env/
+
+# Ignore Docker ignore files
+.dockerignore
+
+# Ignore Python bytecode cache
+__pycache__/
+
+# Ignore test configuration
+conftest.py
+
+# Ignore tox configuration
+tox.ini
+
+# Ignore contents of speedict folder
+speedict/*
+
+# Ignore contents of lancedb folder
+lancedb/*
+
+# Ignore passwords
+passwords/
