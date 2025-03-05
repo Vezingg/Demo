@@ -22,8 +22,8 @@ from llama_index.embeddings.openai import OpenAIEmbedding
 from llama_index.llms.openai import OpenAI as OpenAI_Llama
 import lancedb
 from speedict import Rdict
-from src import utils
-from src.agent_and_tools import (
+import utils
+from agent_and_tools import (
     PRODUCT,
     answer_from_document_retrieval,
     handle_user_answer,
@@ -33,9 +33,9 @@ from src.agent_and_tools import (
     IDDM_PRODUCT_VERSIONS,
     IDA_PRODUCT_VERSIONS
 )
-from src.lillisa_server_context import LOCALE, LilLisaServerContext
-from src.llama_index_lancedb_vector_store import LanceDBVectorStore
-from src.llama_index_markdown_reader import MarkdownReader
+from lillisa_server_context import LOCALE, LilLisaServerContext
+from llama_index_lancedb_vector_store import LanceDBVectorStore
+from llama_index_markdown_reader import MarkdownReader
 import git
 import re
 import traceback
